@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dash Example</title>
+    {% load static %}
+    {% load plotly_dash %}
+    <link rel="stylesheet" type="text/css" href="{% static 'medclinics/styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Dash Example</h1>
+        {% plotly_app_bootstrap name="SimpleExample" %}
+    </div>
+</body>
+</html>
